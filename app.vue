@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import { fetchWithCookie } from "~~/utils/fetchApi";
+import { fetchWithCookie } from "./utils/fetchApi";
 
 const result = await fetchWithCookie("/api/test", {
 	method: `GET`,
