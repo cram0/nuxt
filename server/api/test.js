@@ -2,6 +2,6 @@ export default defineEventHandler(async (event) => {
 	setCookie(event, "foo", "bar");
 
 	return {
-		api: "qweqweqweqwe",
+		api: "test",
 	};
 });
